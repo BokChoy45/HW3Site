@@ -347,3 +347,50 @@ function showAlert() {
         alertBox.style.display = "none";
     };
 }
+
+//Validate Info
+function validateInfo() {
+    let valid = true;
+
+    if (!validateFname()) {
+        valid = false;
+    }
+    if (!validateMidname()) {
+        valid = false;
+    }
+    if (!validateLname()) {
+        valid = false;
+    }
+    if (!validateBdate()) {
+        valid = false;
+    }
+    if (!validateSSN()) {
+        valid = false; 
+    }
+    if (!validateEmail()) {
+        valid = false;
+    }
+    if (!validateAddr1()) {
+        valid = false;
+    }
+    if (!validateCity()) {
+        valid = false;
+    }
+    if (!validateZip()) {
+        valid = false;
+    }
+    if (!validateUser()) {
+        valid = false;
+    }
+    if (!validatePass()) {
+        valid = false;
+    }
+    if (!confirmPass()) {
+        valid = false;
+    }
+    if (valid) {
+        document.getElementById("submit").disabled = false;
+    } else {
+        showAlert();
+    }
+}
