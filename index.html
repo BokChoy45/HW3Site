@@ -211,9 +211,10 @@ Description - This medical form is a assignment for MIS3371. This form is meant 
                 <span class = "error" id = "pass2-error"></span></td></tr>
 
         <tr>
-            <td><td><input type = "reset" value = "Clear All">
-            <input type="button" name = "review" value = "Review" onclick="reviewInfo()">
-            <input type = "submit" value = "Submit"></td></td></tr>
+            <td><td><input type = "reset" name = "reset" id = "reset" value = "Clear All">
+            <input type= "button" name = "review" id = "review" value = "Review" onclick= "reviewInfo()">
+            <input type= = "button" name = "validate" id = "validate" onclick = "validateInfo()">
+            <input type = "submit" name = "submit" value = "Submit"></td></td></tr>
             </table> 
         
         <div class = "pass-errorMessage">
@@ -237,5 +238,13 @@ Description - This medical form is a assignment for MIS3371. This form is meant 
                 <p>Contact us</p>
                 <a href= "https://www.youtube.com/watch?v=Aq5WXmQQooo">NguHealthService@gmail.com</a></p>
             </footer>   
+
+    <div id = "alert-box">
+        <div id = "alert-content">
+            <h2>Please fill out all required information</h2>
+            <button id = "close-alert">Ok</button>
+        </div>
+    </div>
+    
     </body>
 </html>
