@@ -345,5 +345,5 @@ function showAlert() {
     alertBox.style.display = "block";
     closeAlert.onclick = function() {
         alertBox.style.display = "none";
-    }
+    };
 }
