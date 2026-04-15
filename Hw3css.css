@@ -76,7 +76,7 @@ td.outputdata {
 
 /*Alert Box*/
 
-#alert-Box {
+#alert-box {
     display: none;
     position: fixed;
     z-index: 9999;
