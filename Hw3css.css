@@ -106,5 +106,20 @@ td.outputdata {
     font-weight: normal;
 }
 
-
+#close-alert {
+    background-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    color: slategray;
+    border-color: slategray;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
 
