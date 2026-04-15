@@ -336,3 +336,14 @@ function removeReview()
 {
     document.getElementById("showInput".innerHTML = "")
 }
+
+//Alert Box
+function showAlert() {
+    var alertBox = document.getElementById("alert-box");
+    var closeBox = docuement.getElementById("close-box");
+
+    alertBox.style.display = "block";
+    closeAlert.onclick = function() {
+        alertBox.style.display = "none";
+    }
+}
