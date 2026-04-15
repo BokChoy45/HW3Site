@@ -340,7 +340,7 @@ function removeReview()
 //Alert Box
 function showAlert() {
     var alertBox = document.getElementById("alert-box");
-    var closeBox = docuement.getElementById("close-alert");
+    var closeAlert = docuement.getElementById("close-alert");
 
     alertBox.style.display = "block";
     closeAlert.onclick = function() {
