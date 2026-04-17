@@ -389,7 +389,7 @@ function validateInfo() {
     if (!confirmPass()) {
         valid = false;
     }
-    if (valid = true) {
+    if (valid) {
         document.getElementById("submit").disabled = false;      
     } else {
         showAlert();
