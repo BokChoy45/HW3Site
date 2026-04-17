@@ -389,9 +389,8 @@ function validateInfo() {
         valid = false;
     }
     if (!valid) {
-        document.getElementById("submit").disabled = true;
-        showAlert();
+        document.getElementById("submit").disabled = false;      
     } else {
-        document.getElementById("submit").disable = false;
+        showAlert();
     }
 }
