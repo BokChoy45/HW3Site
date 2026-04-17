@@ -76,7 +76,7 @@ td.outputdata {
 
 /*Alert Box*/
 
-#alert-box {
+#alertBox {
     display: none;
     position: fixed;
     z-index: 9999;
@@ -88,7 +88,7 @@ td.outputdata {
     background-color: transparent;
 }
 
-#alert-content {
+#alertContent {
     background-color: whitesmoke;
     border-radius: 10px;
     width: 300px;
@@ -99,14 +99,14 @@ td.outputdata {
     text-align: center;
 }
 
-#alert-content h2 {
+#alertContent h2 {
     font-size: 20px; 
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
 }
 
-#close-alert {
+#closeAlert {
     background-color: white;
     border-width: 1px;
     border-style: solid;
