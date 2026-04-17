@@ -389,7 +389,7 @@ function validateInfo() {
         valid = false;
     }
     if (valid) {
-        document.getElementById("submit").disabled = false;
+        validateInfo.onclick = document.getElementById("submit").disabled = false;
               
     } else if (!valid) {
         document.getElementById("submit").disabled = true
