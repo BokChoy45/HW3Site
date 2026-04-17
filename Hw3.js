@@ -351,6 +351,7 @@ function showAlert() {
 //Validate Info
 function validateInfo() {
     let valid = true;
+        const submitButton = document.getElementById("submit");
     
     if (!validateFname()) {
         valid = false;
@@ -389,8 +390,9 @@ function validateInfo() {
         valid = false;
     }
     if (valid) {
-        validateInfo.onclick = document.getElementById("submit").disabled = false;       
+        submitButton.diabled = false
     } else {
+        submitButton.disabled = true
         showAlert();
     }
 }
