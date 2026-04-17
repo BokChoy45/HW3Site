@@ -37,6 +37,11 @@ function validateMidname() {
         midname = midname.toUpperCase();
         document.getElementById("midname").value = midname;
         
+        if(midname == ""){
+            document.getElementById("midname-error").innerHTML
+            return true;
+        }
+        else
             if (!midname.match(MidnamePattern)) {
                 document.getElementById("midname-error").innerHTML = "Enter a valid Middle Initial";
                 return false;
