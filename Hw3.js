@@ -253,6 +253,7 @@ function validatePass()
     errorContainer.innerHTML = errorMessage
     .map(msg => `<span>${msg}</span><br>`)
     .join("");
+    return errorMessage.length === 0;
 }
 
 //Confirm Password Validation
