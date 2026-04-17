@@ -391,7 +391,7 @@ function validateInfo() {
     if (valid) {
         document.getElementById("submit").disabled = false;
               
-    } else {
+    } else if (!valid) {
         document.getElementById("submit").disabled = true
         showAlert();
     }
