@@ -351,6 +351,7 @@ function showAlert() {
 //Validate Info
 function validateInfo() {
     let valid = true;
+        document.getElementById("submit").disable = true
 
     if (!validateFname()) {
         valid = false;
