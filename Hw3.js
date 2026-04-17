@@ -390,7 +390,7 @@ function validateInfo() {
         valid = false;
     }
     if (valid) {
-        submitButton.diabled = false
+        submitButton.disabled = false
     } else {
         submitButton.disabled = true
         showAlert();
