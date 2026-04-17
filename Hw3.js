@@ -388,8 +388,8 @@ function validateInfo() {
     if (!confirmPass()) {
         valid = false;
     }
-    if (valid) {
-        document.getElementById("submit").disabled = false;      
+    if (valid = false) {
+        document.getElementById("submit").disabled = true;      
     } else {
         showAlert();
     }
