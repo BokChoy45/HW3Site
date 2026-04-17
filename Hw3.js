@@ -390,8 +390,9 @@ function validateInfo() {
     }
     if (valid = false) {
         document.getElementById("submit").disabled = true;
-        showAlert();      
+              
     } else {
         document.getElementById("submit").disabled = false
+        showAlert();
     }
 }
